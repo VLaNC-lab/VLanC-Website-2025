@@ -1,0 +1,225 @@
+# - title: Cool Dataset
+#   subtitle: a subtitle
+#   group: featured
+#   image: images/photo.jpg
+#   link: https://github.com/
+#   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   repo: greenelab/lab-website-template
+#   tags:
+#     - resource
+
+# - title: Cool Package
+#   subtitle: a subtitle
+#   group: featured
+#   image: images/photo.jpg
+#   link: https://github.com/
+#   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   repo: greenelab/lab-website-template
+#   tags:
+#     - resource
+
+# - title: Cool Tutorial
+#   subtitle: a subtitle
+#   image: images/photo.jpg
+#   link: https://github.com/
+#   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   repo: greenelab/lab-website-template
+#   tags:
+#     - resource
+#     - publication
+
+# - title: Cool Web App
+#   subtitle: a subtitle
+#   image: images/photo.jpg
+#   link: https://github.com/
+#   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   repo: greenelab/lab-website-template
+#   tags:
+#     - software
+
+# - title: Cool Web Server
+#   subtitle: a subtitle
+#   image: images/photo.jpg
+#   link: https://github.com/
+#   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   repo: greenelab/lab-website-template
+#   tags:
+#     - software
+
+
+# - title: Start-up Team at GDC-Induct Program
+#   subtitle: Entrepreneurship Cell, IIT Madras
+#   group: featured
+#   image: images/gdc.jpg
+#   link: https://ecell.iitm.ac.in/
+#   description: Participated in a 4-week GDC-Induct start-up incubation program by E-cell AIC at IIT Madras, focusing on AI-based educational innovations.
+#   repo: greenelab/lab-website-template
+#   tags:
+#     - project
+
+
+- title: Prime Minister Fellowship for Doctoral Research
+  subtitle: Recognized by Government of India
+  group: featured
+  image: images/pm_fellowship.jpg
+  link: https://primeministerfellowshipscheme.in/
+  description: Awarded the prestigious Prime Minister Fellowship for pursuing doctoral research in AI and Knowledge Graphs.
+  repo: greenelab/lab-website-template
+  tags:
+    - fellowship
+    - recognition
+
+- title: ACM Pingala Interactions in Computing
+  subtitle: Selected among top 50 Indian & International researchers
+  group: featured
+  image: images/acm_pingala.jpg
+  link: https://india.acm.org/
+  description: Participated in ACM Pingala Interactions 2024, selected as one of the most promising researchers in computing.
+  repo: greenelab/lab-website-template
+  tags:
+    - recognition
+    - event
+
+- title: Google Research Week
+  subtitle: Participant, Bangalore 2023
+  image: images/google_research_week.jpg
+  link: https://research.google/
+  description: Attended Google Research Week 2023 in Bangalore, connecting with top researchers and engineers.
+  repo: greenelab/lab-website-template
+  tags:
+    - event
+    - recognition
+
+- title: Research Grant on Brain-Computer Interfaces
+  subtitle: Mahindra University Research Seed Fund
+  group: featured
+  image: images/bci_grant.jpg
+  link: https://www.mahindrauniversity.edu.in/
+  description: Awarded ₹4.8 Lakhs for a two-year project titled "Building Brain-Computer Interfaces using Deep Generative Models."
+  repo: greenelab/lab-website-template
+  tags:
+    - grant
+    - research
+
+- title: Presentation Grant for ACM Multimedia
+  subtitle: Collaborative Project with NUS
+  image: images/acm_mm_grant.jpg
+  link: https://www.acmmm.org/
+  description: Received $2500 for presenting a collaborative research paper at ACM Multimedia 2023 in Ottawa, Canada.
+  repo: greenelab/lab-website-template
+  tags:
+    - grant
+    - research
+    - travel
+
+- title: Poster Presentation at ACM ARCS 2024
+  subtitle: Research Communication Showcase
+  image: images/acm_arcs.jpg
+  link: https://india.acm.org/
+  description: Presented cutting-edge research at the ACM ARCS event, showcasing work in Knowledge Graphs and NLP.
+  repo: greenelab/lab-website-template
+  tags:
+    - presentation
+    - event
+
+- title: NLP Practitioner Certified
+  subtitle: Certified NLP (Neuro-Linguistic Programming) Practitioner
+  image: images/nlp_certification.jpg
+  link: https://www.nlpcoachingacademy.com/
+  description: Earned certification as an NLP Practitioner, enhancing coaching and behavioral insight skills.
+  repo: greenelab/lab-website-template
+  tags:
+    - certification
+    - personal_growth
+
+- title: Certified IRM’s Global Level 1 Professional
+  subtitle: Enterprise Risk Management Certification
+  image: images/irm_certification.jpg
+  link: https://www.theirmindia.org/
+  description: Achieved IRM’s Level 1 certification, strengthening knowledge in enterprise-level risk management strategies.
+  repo: greenelab/lab-website-template
+  tags:
+    - certification
+    - professional
+
+- title: Start-up Team at GDC-Induct Program
+  subtitle: Entrepreneurship Cell, IIT Madras
+  group: featured
+  image: images/gdc.jpg
+  link: https://ecell.iitm.ac.in/
+  description: Participated in a 4-week GDC-Induct start-up incubation program by E-cell AIC at IIT Madras, focusing on AI-based educational innovations.
+  repo: greenelab/lab-website-template
+  tags:
+    - project
+    - startup
+
+- title: Mentor at ACM Summer Workshop, IGDTW
+  subtitle: Student Mentorship Initiative
+  image: images/mentor_acm.jpg
+  link: https://www.igdtuw.ac.in/
+  description: Mentored students in AI and NLP as part of the ACM Summer Workshop at Indira Gandhi Delhi Technical University for Women.
+  repo: greenelab/lab-website-template
+  tags:
+    - mentorship
+    - teaching
+
+- title: Invited Talk on Semantic Intelligence & AI
+  subtitle: Expert Lecture at NIT Kurukshetra
+  image: images/semantic_ai.jpg
+  link: https://nitkkr.ac.in/
+  description: Delivered a lecture on Semantic Intelligence, AI, and Knowledge Graphs at NIT Kurukshetra's Expert Talk Series.
+  repo: greenelab/lab-website-template
+  tags:
+    - talk
+    - invited
+
+- title: Interview with Women in AI APAC
+  subtitle: On the Role of Knowledge Graphs in AI
+  image: images/wai.jpg
+  link: https://www.womeninai.co/
+  description: Shared insights on Knowledge Graphs and their applications during an expert interview with Women in AI Asia-Pacific.
+  repo: greenelab/lab-website-template
+  tags:
+    - interview
+    - outreach
+
+- title: Lecture at Chinmaya Vishwa Vidyapeeth
+  subtitle: Preserving Indian Knowledge Systems using AI
+  image: images/chinmaya.jpg
+  link: https://www.cvv.ac.in/
+  description: Delivered a talk on the intersection of AI and Indian Knowledge Systems at the National Youth Conference 2024.
+  repo: greenelab/lab-website-template
+  tags:
+    - talk
+    - cultural_ai
+
+- title: Teaching Assistantships at IIIT-Delhi
+  subtitle: Courses on NLP, Privacy, HCI, and Security
+  image: images/ta_iiitd.jpg
+  link: https://www.iiitd.ac.in/
+  description: Served as TA for various courses including Online Privacy, NLP, Security, and HCI, and supported MOOCs via NPTEL.
+  repo: greenelab/lab-website-template
+  tags:
+    - teaching
+    - education
+
+- title: Program Committee Member
+  subtitle: Reviewer for top AI & Web Conferences
+  image: images/pc_member.jpg
+  link: https://dblp.org/
+  description: Reviewed papers for conferences like WWW, CIKM, AAAI, ICWSM, and more, contributing to global AI research discourse.
+  repo: greenelab/lab-website-template
+  tags:
+    - service
+    - review
+
+- title: Travel and Student Grants
+  subtitle: NeurIPS, EACL, ACML, ISWC, IndoML
+  image: images/travel_grant.jpg
+  link: https://nips.cc/
+  description: Received multiple travel grants and complimentary registrations to attend leading AI/ML conferences and workshops.
+  repo: greenelab/lab-website-template
+  tags:
+    - travel
+    - grant
+    - conference

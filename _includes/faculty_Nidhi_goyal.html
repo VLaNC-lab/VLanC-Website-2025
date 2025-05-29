@@ -1,0 +1,34 @@
+<h2>Instructor</h2>
+
+{% include list.html data="members" component="portrait" filter="role == 'Faculty'" %}
+
+{{ include.course_info | safe}}
+
+
+
+<style>
+.course-info {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  background-color: #f9f9f9;
+  border-left: 4px solid #007acc;
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
+  max-width: 600px;
+}
+
+.course-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.course-info li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.course-info span {
+  color: #444;
+}
+</style>

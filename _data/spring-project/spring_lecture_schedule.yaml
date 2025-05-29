@@ -1,0 +1,119 @@
+- week: 1
+  topic: Introduction to NLP and its applications
+  lecture_slides:
+    - https://labs.vlanc.co.in/teachings/NLP-Lecture-01.pdf
+  assignments: []
+  readings: []
+
+- week: 2
+  topic: Regular Expressions, Text Normalization
+  lecture_slides:
+    - https://labs.vlanc.co.in/teachings/NLP-Lecture-02.pdf
+  assignments:
+    - Assignment 1 (given in class)
+  readings: []
+
+- week: 3
+  topic: Text pre-processing (Stop Words, Bag-of-Words, TF-IDF, POS Tagging, NER)
+  lecture_slides:
+    - https://labs.vlanc.co.in/teachings/NLP-Lecture-03.pdf
+  assignments: []
+  readings:
+    - title: N-gram Language Models (Textbook Chapter)
+      url: https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes01.pdf
+
+- week: 4
+  topic: Distributional semantics, Vector Embeddings
+  lecture_slides:
+    - https://labs.vlanc.co.in/teachings/NLP-Lecture-04.pdf
+  assignments:
+    - Assignment 2 (released)
+  readings:
+    - title: Vector Semantics and Embeddings (Textbook Chapter)
+      url: https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes02.pdf
+
+- week: 5
+  topic: Language Models - Probabilistic Language Modeling
+  lecture_slides:
+    - https://labs.vlanc.co.in/teachings/NLP-Lecture-05.pdf
+  assignments: []
+  readings:
+    - title: N-gram Language Models (Textbook Chapter)
+      url: https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes01.pdf
+    - title: PyTorch Basics
+      url: https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html
+
+- week: 6
+  topic: Neural Networks and Neural Language Modeling
+  lecture_slides:
+    - https://labs.vlanc.co.in/teachings/NLP-Lecture-06.pdf
+  assignments: []
+  readings:
+    - title: Neural Networks and Neural Language Models (Textbook Chapter)
+      url: https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes03.pdf
+    - title: PyTorch Hands-on Tutorials
+      url: https://github.com/yunjey/pytorch-tutorial
+    - title: Neural Networks, Backpropagation [Notes-CS224n]
+      url: https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes04.pdf
+
+- week: 7
+  topic: Recurrent Neural Networks, LSTM
+  lecture_slides:
+    - https://labs.vlanc.co.in/teachings/NLP-Lecture-07.pdf
+    - https://labs.vlanc.co.in/teachings/lec02_rnn.pdf
+  assignments: []
+  readings:
+    - title: RNNs and LSTMs (Textbook Chapter)
+      url: https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes05.pdf
+    - title: Language Models, RNN and LSTM [CS224n Lecture Notes]
+      url: https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes06.pdf
+    - title: RNN PyTorch Slides & Implementation
+      url: https://drive.google.com/file/d/1RNN_PyTorch_Slides/view
+    - title: On the difficulty of training Recurrent Neural Networks [Research Paper]
+      url: https://arxiv.org/abs/1211.5063
+    - title: Vanishing and Exploding gradients (Colab Notebook)
+      url: https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes07.pdf
+
+- week: 8
+  topic: Advanced topics - Encoder Decoder Models, Attention
+  lecture_slides:
+    - https://labs.vlanc.co.in/teachings/NLP-Lecture-08_updated.pdf
+  assignments: []
+  readings:
+    - title: Transformers (Textbook Chapter)
+      url: https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes08.pdf
+
+- week: 9
+  topic: Advanced topics - Multi-head attention, Transformers
+  lecture_slides:
+    - https://labs.vlanc.co.in/teachings/NLP-Lecture-09.pdf
+  assignments: []
+  readings:
+    - title: BERT Visualization
+      url: https://github.com/jessevig/bertviz
+
+- week: 10
+  topic: Advanced topics - BLEU Score, Introduction to LLM's Pretraining, Fine-tuning
+  lecture_slides:
+    - https://labs.vlanc.co.in/teachings/NLP-Lecture-10.pdf
+  assignments: []
+  readings:
+    - title: The Illustrated Transformer by Jay Alammar
+      url: https://jalammar.github.io/illustrated-transformer/
+    - title: Attention is all you Need [Research Paper]
+      url: https://arxiv.org/abs/1706.03762
+    - title: Attention Visualization
+      url: https://nlp.seas.harvard.edu/2018/04/03/attention.html
+
+- week: 11
+  topic: Advanced topics - MLM, BERT and NLP Applications
+  lecture_slides:
+    - https://labs.vlanc.co.in/teachings/NLP-Lecture-11.pdf
+  assignments: []
+  readings:
+    - title: The Illustrated BERT, ELMo, and co. by Jay Alammar
+      url: https://jalammar.github.io/illustrated-bert/
+    - title: BERT [Research Paper]
+      url: https://arxiv.org/abs/1810.04805
+    - title: Hugging Face - BERT
+      url: https://huggingface.co/transformers/model_doc/bert.html

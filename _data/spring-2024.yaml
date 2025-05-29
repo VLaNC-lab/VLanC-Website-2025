@@ -1,0 +1,51 @@
+- title: NLP - Spring 2024, MU
+  image_course: images/mu-logo-nobg.png
+  text: >
+    This course is primarily designed for undergraduate students. It introduces the fundamentals of Natural Language Processing (NLP), including topics such as text preprocessing, language modeling, syntactic parsing, sentiment analysis, and practical applications using modern NLP libraries and tools taught by **Dr. Nidhi Goyal**.
+  tags: [faculty, books, faculty, schedule]
+  category: course
+
+- title: Speech and Language Processing
+  book_image: /images/books/nlp-bk1.png
+  author: Daniel Jurafsky and James H. Martin
+  link: https://labs.vlanc.co.in/teachings/Speech%20and%20language%20processing.pdf
+  tags: [books, NLP]
+  course: spring-2024
+  category: books
+
+- title: Natural Language Processing with Python
+  book_image: https://labs.vlanc.co.in/teachings/nlp-bk2.png
+  author: Steven Bird et al.
+  link: https://labs.vlanc.co.in/teachings/NLP%20with%20Python.pdf
+  tags: [books, NLP, Python]
+  course: spring-2024
+  category: books
+
+
+- title: Practical Natural Language Processing
+  book_image: https://labs.vlanc.co.in/teachings/nlp-bk3.png
+  author: Sowmya Vajjala, Bodhisattwa Majumder, Anuj Gupta, Harshit Surana
+  link: https://www.google.co.in/books/edition/Practical_Natural_Language_Processing/hvrrDwAAQBAJ?hl=en&gbpv=1&printsec=frontcover#v=onepage&q&f=false
+  tags: [books, NLP, Python]
+  course: spring-2024
+  category: books
+
+- title: Build a Large Language Model (From_Scratch).
+  book_image: https://labs.vlanc.co.in/teachings/cover.jpg
+  author: Sebastian Raschika
+  link: https://labs.vlanc.co.in/teachings/Build_a_Large_Language_Model_(From_Scrat.pdf
+  tags: [books, NLP, Python]
+  course: spring-2024
+  category: books
+
+
+- title: "CS3126"
+  course_info: |
+    <section class="course-info">
+      <ul>
+        <li><strong>Course Code:</strong> CS3126</li>
+        <li><strong>Time:</strong> Thursday <span>[11:30am – 12:30pm]</span>, Friday <span>[2:35pm – 4:30pm]</span></li>
+        <li><strong>Location:</strong> ELT 1</li>
+        <li><strong>Office Hours:</strong> Monday <span>(4:00–5:00 pm)</span>, Wednesday <span>(4:00–5:00 pm)</span></li>
+      </ul>
+    </section>

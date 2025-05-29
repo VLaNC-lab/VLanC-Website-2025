@@ -1,0 +1,13 @@
+- title: NLP - Spring 2024, MU
+  image: images/mu-logo-nobg.png
+  link: team
+  text: >
+    This course is primarily designed for undergraduate students. It introduces the fundamentals of Natural Language Processing (NLP), including topics such as text preprocessing, language modeling, syntactic parsing, sentiment analysis, and practical applications using modern NLP libraries and tools taught by **Dr. Nidhi Goyal**.
+  tags: [faculty,Books, Faculty, Schedule]
+
+- title: Foundations of NLP - Fall 2024, MU
+  image: images/mu-logo-nobg.png
+  link: team
+  text: >
+    This course is designed for undergraduate and postgraduate students. It covers language modeling, sentiment analysis, attention, transformers, and modern NLP libraries, taught by **Dr. Nidhi Goyal**.
+  tags: [Faculty,Books, Projects, Readings]

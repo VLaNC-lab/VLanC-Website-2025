@@ -1,0 +1,74 @@
+# site properties and page defaults
+title: Visual LAnguage Neural Congnitive Computing Lab
+subtitle: VLANC
+description: VLANC is dedicated Lab for the Visual Visual LAnguage Neural Congnitive Computing under the Supervision of Dr. Nidhi Goyal
+header: images/mainpgpic.jpeg
+footer: images/icon.png
+proofer: false
+
+# site social media and other links
+links:
+  email: nidhi.goyal@mahindrauniversity.edu.in
+  orcid: 0000-0001-8346-5951
+  google-scholar: w8_U-EgAAAAJ
+  github: VLaNC-lab/mu-nlp-course
+  website: https://sites.google.com/a/iiitd.ac.in/nidhigoyal/home
+  # twitter: https://www.google.com/url?q=https%3A%2F%2Ftwitter.com%2FNidhigoyalGoyal&sa=D&sntz=1&usg=AOvVaw1q5Azlu9zmjr9kAdB3uoUU
+  # # youtube: https://studio.youtube.com/channel/UCqtSJFUwf9ZV3SWRIhSkJEA/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D
+
+### jekyll settings
+
+# front matter defaults
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_posts
+  # - scope:
+  #     type: "posts"
+  #   values:
+  #     layout: post
+
+collections:
+  # generate page for each member
+  members:
+    output: true
+  # generate page for each post
+  posts:
+    output: true
+
+# jekyll plugins
+plugins:
+  - jekyll-spaceship
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+# code block syntax highlighting
+highlighter: rouge
+
+# jekyll theme
+theme: null
+
+# sass settings
+sass:
+  sass_dir: _styles
+
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
+
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+  - CITATION.cff
