@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Faculty
-permalink: /course/fall-2024/faculty/
+permalink: /course/spring-2024/faculty/
 ---
 <style>
 .page-container {
