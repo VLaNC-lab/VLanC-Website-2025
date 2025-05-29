@@ -1,6 +1,7 @@
 ---
+layout: default
 title: Schedule
----
+permalink: /course/fall-2024/schedule/
 ---
 <style>
 .page-container {

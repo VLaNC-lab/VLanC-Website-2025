@@ -1,7 +1,8 @@
 ---
-title: Schedule
+layout: default
+title: schedule
+permalink: /course/spring-2024/schedule/
 ---
-
 <style>
 .page-container {
   display: flex;

@@ -1,5 +1,8 @@
 ---
+layout: default
 title: Books
+permalink: /course/fall-2024/readingbooks/
+---
 ---
 
 <style>
