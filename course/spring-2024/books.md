@@ -93,11 +93,11 @@ hr {
 
 <div class="page-container">
 
-<h1>{% include icon.html icon="fa-person-chalkboard" %} Recommended Books for Foundations of NLP - Fall 2024, MU</h1>
+<h1>{% include icon.html icon="fa-person-chalkboard" %} Recommended Books for Foundations of NLP - Spring 2024, MU</h1>
 
 <!-- Book Display Section -->
 <div class="book-list">
-  {% assign books = site.data.spring-2024 | where: "category", "books" %}
+  {% assign books = site.data.fNLP-fall-2024 | where: "category", "books" %}
   {% for book in books %}
   <div class="book-card">
     <img src="{{ book.book_image }}" alt="{{ book.title }}">
