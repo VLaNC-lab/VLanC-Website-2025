@@ -11,8 +11,6 @@
   date: '2018-03-01'
   link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892454
   image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/9891857/9889787/9892454/9892454-fig-2-source-large.gif
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Stack Overflow is a Community Question Answering service that attracts millions of users to seek answers to
   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
@@ -35,8 +33,6 @@
   date: '2024-03-27'  
   link: https://link.springer.com/chapter/10.1007/978-3-031-58502-9_14
   image: https://media.springernature.com/w144/springer-static/cover-hires/book/978-3-031-58502-9?as=webp
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Knowledge Graph Completion (KGC) aims to predict missing entities or relations in knowledge graph but it becomes computationally expensive as KG scales. 
   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
@@ -57,8 +53,6 @@
   date: '2024-09-01'  
   link: https://link.springer.com/chapter/10.1007/978-3-031-58502-9_14
   image: https://media.springernature.com/w144/springer-static/cover-hires/book/978-3-031-58502-9?as=webp
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Online professional platforms such as Indeed, LinkedIn, Naukri, Stack Overflow, and Blind serve as digital ecosystems to connect professionals, employers, and job seekers.
   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
@@ -81,8 +75,6 @@
   date: '2023-05-01'
   link: https://aclanthology.org/2023.findings-eacl.163/
   image: https://aclanthology.org/images/acl-logo.svg
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Writing a good job description is an important step in the online recruitment process to hire the best candidates. Most recruiters forget to include some relevant skills in the job description.
   image: https://aclanthology.org/images/acl-logo.svg
@@ -105,8 +97,6 @@
   date: '2024-03-01'
   link: https://aclanthology.org/2024.eacl-srw.8/
   image: https://aclanthology.org/images/acl-logo.svg
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Extracting the attribute value of a product from the given product description is essential for ecommerce functions like product recommendations, search, and information retrieval.
   image: https://aclanthology.org/images/acl-logo.svg
@@ -128,8 +118,6 @@
   date: '2021-09-07'  
   link: https://link.springer.com/chapter/10.1007/978-3-030-86340-1_13
   image: https://link.springer.com/book/10.1007/978-3-030-86340-1
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Knowledge Graph Completion (KGC) aims to predict missing entities or relations in knowledge graph but it becomes computationally expensive as KG scales. 
   image: https://link.springer.com/book/10.1007/978-3-030-86340-1
@@ -149,8 +137,6 @@
   date: '2021-07-08'
   link: https://link.springer.com/chapter/10.1007/978-3-030-82147-0_50
   image: https://link.springer.com/oscar-static/images/darwin/header/img/logo-springer-nature-link-3149409f62.svg
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Fraudulent jobs are an emerging threat over online recruitment platforms such as LinkedIn, Glassdoor. Fraudulent job postings affect the platform’s trustworthiness and have a negative impact on user experience.
   image: https://link.springer.com/oscar-static/images/darwin/header/img/logo-springer-nature-link-3149409f62.svg
@@ -172,8 +158,6 @@
   date: '2019-09-12'
   link: https://dl.acm.org/doi/abs/10.1145/3342220.3344931
   image: https://dl.acm.org/specs/products/acm/releasedAssets/images/acm-dl-logo-white-1ecfb82271e5612e8ca12aa1b1737479.png
-  plugin: sources.py
-  file: sources.yaml
   type: Poster
   description: This paper presents Con2KG, a large-scale recruitment domain Knowledge Graph that describes 4 million triples as facts from 250 thousands of unstructured data of job postings.
   image: https://dl.acm.org/specs/products/acm/releasedAssets/images/acm-dl-logo-white-1ecfb82271e5612e8ca12aa1b1737479.png
@@ -197,8 +181,6 @@
   date: '2024-05-28'
   link: https://ojs.aaai.org/index.php/ICWSM/article/view/31345
   image: https://ojs.aaai.org/index.php/ICWSM/issue/view/605
-  plugin: sources.py
-  file: sources.yaml
   type: Paper
   description: The default approach to deal with the enormous size and limited accessibility of many Web and social media networks is to sample one or more subnetworks from a conceptually unbounded unknown network.
   image: https://ojs.aaai.org/index.php/ICWSM/issue/view/605
@@ -219,8 +201,6 @@
   date: '2017-01-01'
   link: https://www.researchgate.net/profile/Anshul-Bhatia/publication/345766766_Internet_of_Things_IOT_Confronts_and_Applications/links/600ed50d92851c13fe361028/Internet-of-Things-IOT-Confronts-and-Application
   image: https://www.researchgate.net/profile/Anshul-Bhatia/publication/345766766_Internet_of_Things_IOT_Confronts_and_Applications/links/600ed50d92851c13fe361028/Internet-of-Things-IOT-Confronts-and-Application
-  plugin: sources.py
-  file: sources.yaml
   type: Journal
   description: The term “Internet of Things” (IoT) believed to have been developed by British technology pioneer Kevin Ashton in1999. Internet of Things (IoT) is an emerging technology that can connect millions of different objects, devices like sensors, RFIDs and actuators smart devices that are embedded in the environment to observe and collect information
   image: https://www.researchgate.net/profile/Anshul-Bhatia/publication/345766766_Internet_of_Things_IOT_Confronts_and_Applications/links/600ed50d92851c13fe361028/Internet-of-Things-IOT-Confronts-and-Application
@@ -240,8 +220,6 @@
   date: '2023-01-03'
   link: https://dl.acm.org/doi/abs/10.1145/3570991.3571053
   image: https://dl.acm.org/specs/products/acm/releasedAssets/images/acm-dl-logo-white-1ecfb82271e5612e8ca12aa1b1737479.png
-  plugin: sources.py
-  file: sources.yaml
   type: Journal
   description: Employment scams, such as scapegoat positions, clickbait and non-existing jobs, etc., are among the top five scams registered over online platforms.
   image: https://dl.acm.org/specs/products/acm/releasedAssets/images/acm-dl-logo-white-1ecfb82271e5612e8ca12aa1b1737479.png
@@ -263,8 +241,6 @@
   date: '2023-10-29'
   link: https://dl.acm.org/doi/abs/10.1145/3607540.3617139
   image: https://dl.acm.org/specs/products/acm/releasedAssets/images/acm-dl-logo-white-1ecfb82271e5612e8ca12aa1b1737479.png
-  plugin: sources.py
-  file: sources.yaml
   type: Article
   description: With the exponential growth of user-generated videos, video summarization has become a prominent research field to quickly understand the essence of video content. The goal is to automate the task of acquiring key segments from the video while retaining the contextual semantics of the video and combining them to generate a summary.
   image: https://dl.acm.org/specs/products/acm/releasedAssets/images/acm-dl-logo-white-1ecfb82271e5612e8ca12aa1b1737479.png
