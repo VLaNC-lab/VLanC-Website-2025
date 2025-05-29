@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Readings
-permalink: /course/fall-2024/books/
+permalink: /course/fall-2024/readings/
 ---
 
 <style>
