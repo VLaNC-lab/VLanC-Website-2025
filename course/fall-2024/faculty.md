@@ -1,6 +1,6 @@
 ---
+layout: default
 title: Faculty
-title: Readings
 permalink: /course/fall-2024/faculty/
 ---
 <style>
