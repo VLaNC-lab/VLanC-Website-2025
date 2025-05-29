@@ -1,4 +1,28 @@
 <!-- third party styles -->
+<!-- <link 
+  href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css"
+  rel="stylesheet"
+/> -->
+
+<!-- include all sass in styles folder -->
+<!-- {% assign sass_styles = site.pages | where_exp: "file", "file.url contains '/_styles'" %}
+{% for style in sass_styles %}
+  {% unless style.url contains ".map" %}
+    <link
+      href="{{ style.path | replace: ".scss", ".css" | relative_url }}"
+      rel="stylesheet"
+    />
+  {% endunless %}
+{% endfor %} -->
+
+<!-- include all css in styles folder -->
+<!-- {% assign css_styles = site.static_files | where_exp: "file", "file.path contains '/_styles' and file.path contains '.css'" %}
+{% for style in css_styles %}
+  <link href="{{ style.path | relative_url }}" rel="stylesheet" />
+{% endfor %} -->
+
+
+<!-- third party styles -->
 <link 
   href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css"
   rel="stylesheet"
@@ -7,9 +31,9 @@
 <!-- include all sass in styles folder -->
 {% assign sass_styles = site.pages | where_exp: "file", "file.url contains '/_styles'" %}
 {% for style in sass_styles %}
-  {% unless style.url contains ".map" %}
+  {% unless style.url contains '.map' %}
     <link
-      href="{{ style.path | replace: ".scss", ".css" | relative_url }}"
+      href="{{ style.path | replace: '.scss', '.css' | relative_url }}"
       rel="stylesheet"
     />
   {% endunless %}
@@ -20,3 +44,4 @@
 {% for style in css_styles %}
   <link href="{{ style.path | relative_url }}" rel="stylesheet" />
 {% endfor %}
+
