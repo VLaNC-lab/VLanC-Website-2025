@@ -10,9 +10,8 @@ links:
   github: VLaNC-lab/mu-nlp-course
   website: https://sites.google.com/a/iiitd.ac.in/nidhigoyal/home
   google-scholar: w8_U-EgAAAAJ
+---
 
----
----
 
 **Dr. Nidhi Goyal** is an Assistant Professor in the Department of Computer Science and Engineering at Mahindra University. She completed her Ph.D. from IIIT-Delhi under the guidance of Prof. Ponnurangam Kumaraguru, Dr. Raghava Mutharaju, and Dr. Niharika Sachdeva. During her Ph.D., she was awarded the Prime Minister Fellowship and collaborated with Naukri.com from 2018 to 2022.
 

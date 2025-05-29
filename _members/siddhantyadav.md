@@ -9,9 +9,6 @@ links:
   twitter: Siddhant__30
   linkedin: sidziesama
   instagram: siddhantyadav30
-  
-
----
 ---
 
 **Siddhant Yadav** is an Undergrad student in the Department of Computer Science and Engineering at Mahindra University.

@@ -9,9 +9,6 @@ links:
   twitter: gvdeepesh007
   linkedin: veeradeepesh
   instagram: deepesh_btech
-  
-
----
 ---
 
 **Veera Deepesh** is an Undergrad student in the Department of Computer Science and Engineering at Mahindra University.
