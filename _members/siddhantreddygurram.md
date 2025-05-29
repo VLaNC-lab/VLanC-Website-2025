@@ -1,6 +1,6 @@
 ---
 name: Siddhant Reddy Gurram
-image: images/Headshots/Siddarth-gurram.jpg
+image: images/Headshots/siddarth-gurram.jpg
 role: B.Tech Student
 affiliation: Mahindra University, Hyderabad, India
 description: B.Tech Student
