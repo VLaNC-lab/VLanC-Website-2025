@@ -269,7 +269,7 @@ h2 {
 </style>
 
 <div class="page-container">
-  <h2>📚 Fall 2024 Readings – Natural Language Processing</h2>
+  <h2>📚 Spring 2024 Readings – Natural Language Processing</h2>
   <p>The following texts are useful, but none are required. All of them can be read free online.</p>
   <table class="projects-table">
     <thead>

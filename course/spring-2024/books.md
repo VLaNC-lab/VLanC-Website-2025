@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Books
-permalink: /course/fall-2024/books/
+permalink: /course/spring-2024/books/
 ---
 <style>
 .page-container {
