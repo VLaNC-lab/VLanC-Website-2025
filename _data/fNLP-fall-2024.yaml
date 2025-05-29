@@ -6,7 +6,7 @@
   category: course
 
 - title: Speech and Language Processing
-  book_image: /images/books/nlp-bk1.png
+  book_image:  https://labs.vlanc.co.in/teachings/nlp-bk1.png
   author: Daniel Jurafsky and James H. Martin
   link: https://labs.vlanc.co.in/teachings/Speech%20and%20language%20processing.pdf
   tags: [books, NLP]
