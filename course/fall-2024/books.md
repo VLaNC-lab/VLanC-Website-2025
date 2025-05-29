@@ -3,8 +3,6 @@ layout: default
 title: Books
 permalink: /course/fall-2024/books/
 ---
----
-
 <style>
 .page-container {
   display: flex;
