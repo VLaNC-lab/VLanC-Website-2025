@@ -38,7 +38,7 @@ At the **VLANC** Lab , our research lies at the intersection of **visual underst
 
 {% capture text %}
 
-At the **VLANC** Lab, our projects focus on integrating **vision**, **language*, and *knowledge** to develop intelligent systems capable of understanding and reasoning about multimodal data. Current projects include **graph-based models** for **entity linking**, **knowledge graph** construction from unstructured text, multimodal reasoning across image-text pairs, and deep generative models for **brain-computer interface** signals. We also explore low-resource learning and domain adaptation to ensure our models are robust and generalizable.
+At the **VLANC** Lab, our projects focus on integrating **vision**, **language**, and **knowledge** to develop intelligent systems capable of understanding and reasoning about multimodal data. Current projects include **graph-based models** for **entity linking**, **knowledge graph** construction from unstructured text, multimodal reasoning across image-text pairs, and deep generative models for **brain-computer interface** signals. We also explore low-resource learning and domain adaptation to ensure our models are robust and generalizable.
 
 
 
