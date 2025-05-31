@@ -11,7 +11,8 @@ At the **VLANC** Lab, our research is centered on integrating **vision**, **lang
 
 <details markdown="1">
 <summary>Graph-based Models</summary>
-Graph-based models for entity linking and structured knowledge representation</details>
+Graph-based models for entity linking and structured knowledge representation
+</details>
 
 <details markdown="2">
 <summary>Knowledge Graph Construction</summary>
