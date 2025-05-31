@@ -16,7 +16,6 @@ At the **Visual Language Neural Cognitive Computing (VLANC) Lab**, our research 
 <details markdown="1">
 <summary>🧠 Knowledge Graphs & Reasoning </summary>
 Building and utilizing domain-specific knowledge graphs for information extraction, semantic understanding, and intelligent decision-making.
-
 </details>
 
 <details markdown="2">
