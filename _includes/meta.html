@@ -7,16 +7,29 @@
   {% assign title = nil %}
 {% endif %}
 
+{% assign subtitle = site.subtitle %}
+
 {% assign title = title | xml_escape %}
 
-{% assign fulltitle = "" | split: "," %}
+<!-- {% assign fulltitle = "" | split: "," %}
 {% if title and title != "" %}
   {% assign fulltitle = fulltitle | push: title %}
 {% endif %}
 {% if site.title and site.title != "" %}
   {% assign fulltitle = fulltitle | push: site.title %}
 {% endif %}
+{% assign fulltitle = fulltitle | join: " | " %} -->
+
+{% assign fulltitle = "" | split: "," %}
+{% if subtitle and subtitle != "" %}
+  {% assign fulltitle = fulltitle | push: title %}
+{% endif %}
+{% if site.subtitle and site.subtitle != "" %}
+  {% assign fulltitle = fulltitle | push: site.subtitle %}
+{% endif %}
 {% assign fulltitle = fulltitle | join: " | " %}
+
+
 
 {% assign subtitle = site.subtitle %}
 
@@ -24,6 +37,7 @@
 {% if site.subtitle %}
   {% capture description -%}
     {{ site.subtitle }}. {{ description }}
+    
   {%- endcapture %}
 {% endif %}
 {% capture url -%}
@@ -50,6 +64,7 @@
 <title>{{ fulltitle }}</title>
 
 <link rel="icon" href="{{ icon }}">
+
 
 <meta name="title" content="{{ title }}">
 <meta name="description" content="{{ description }}">
