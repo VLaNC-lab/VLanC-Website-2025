@@ -4,6 +4,8 @@ layout: default
 nav:
   order: 2
   tooltip: Courses Taught
+description: "Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces. Several Courses are offered by Dr. Nidhi Goyal on Natural Language Processing (NLP), Foundation of Natural Language Processing (NLP) and Introduction to Computing (ITC) for Fall and Spring Semester" 
+keywords: [ "VLANC", Visual Language Neural Cognitive Computing Lab,"Visual Language", "Neural Cognitive Computing", "VLANC Lab", "AI Research", "Knowledge Graph", "Graph Neural Networks", "Multimodal AI", "Brain-Computer Interfaces", "Deep Generative Models", "Natural Language Processing", "Vision-Language Integration","NLP", "AI", "AI and Neuroscience lab", "Mahindra University AI lab", "Nidhi Goyal", "Dr. Nidhi Goyal","Projects","Finding","Courses","Research" ]
 ---
 
 # {% include icon.html icon="fa-solid fa-book" %} Courses
@@ -12,9 +14,6 @@ The **VLANC** Lab is actively involved in teaching and mentoring students throug
 
 
 
-{% include search-box.html %}
-{% include search-info.html %}
-{% include section.html %}
 
 {% for course in site.data.fall-2025.fall-2025 %}
 
