@@ -1,7 +1,10 @@
 ---
+title: "Visual Language Neural Cognitive Computing Lab"
+description: "Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces."
+keywords: [ "VLANC", Visual Language Neural Cognitive Computing Lab,"Visual Language", "Neural Cognitive Computing", "VLANC Lab", "AI Research", "Knowledge Graph", "Graph Neural Networks", "Multimodal AI", "Brain-Computer Interfaces", "Deep Generative Models", "Natural Language Processing", "Vision-Language Integration","NLP", "AI", "AI and Neuroscience lab", "Mahindra University AI lab", "Nidhi Goyal", "Dr. Nidhi Goyal","Projects","Finding","Courses","Research" ]
 ---
 
-# Visual LAnguage Neural Congnitive Computing Lab
+# Visual LAnguage Neural Cognitive Computing Lab
 
 
 
@@ -14,7 +17,8 @@ The **Visual LAnguage Neural Cognitive Computing** (VLANC) Lab at Mahindra Unive
 
 {% capture text %}
 
-At the **VLANC** Lab , our research lies at the intersection of **visual understanding**, **natural language processing**, and **neural cognitive computing**. We focus on developing intelligent systems that can interpret, reason over, and generate multimodal content by combining structured knowledge with deep learning. Our work involves **natural language understanding**, **knowledge graph construction and reasoning**, **graph neural networks**, and **deep generative models**. We also explore **brain-computer interfaces** and **information extraction from unstructured data**, with an emphasis on building **human-centric AI systems** that support **knowledge discovery**, **adaptive decision-making**, and **cognitive interaction**. 
+At the **VLANC Lab**, our research integrates **Visual Understanding**, **Natural Language Processing**, and **Neural Cognitive Computing** to build intelligent multimodal systems. We focus on **Knowledge Graphs**, **Graph Neural Networks**, **Deep Generative Models**, and **Natural Language Understanding**, alongside **Brain-Computer Interfaces** and **Information Extraction**.  Our goal is to create **Human-Centric AI** that advances **Knowledge Discovery**, **Adaptive Decision-Making**, and **Cognitive Interaction**.  
+ 
 
 
 {%
@@ -38,7 +42,7 @@ At the **VLANC** Lab , our research lies at the intersection of **visual underst
 
 {% capture text %}
 
-At the **VLANC** Lab, our projects focus on integrating **vision**, **language**, and **knowledge** to develop intelligent systems capable of understanding and reasoning about multimodal data. Current projects include **graph-based models** for **entity linking**, **knowledge graph** construction from unstructured text, multimodal reasoning across image-text pairs, and deep generative models for **brain-computer interface** signals. We also explore low-resource learning and domain adaptation to ensure our models are robust and generalizable.
+At the **VLANC** Lab, we integrate **Vision**, **Language**, and **Knowledge** to build intelligent, multimodal AI systems. Our research spans graph-based models for **Entity Linking**, **Knowledge Graph** construction from unstructured text, multimodal reasoning over image-text data, and **Deep Generative** models for **Brain-Computer Interface** signals. We also advance low-resource learning and domain adaptation to create robust, generalizable AI models bridging AI and neuroscience.
 
 
 

@@ -145,6 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 {% include section.html %}
   <details markdown="1">
 <summary>Full Class Schedule</summary>
+  
 
 <div class="page-container">
   <h2>📘 NLP Course Weekly Schedule – Spring 2024</h2>

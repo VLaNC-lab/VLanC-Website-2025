@@ -1,7 +1,7 @@
 # site properties and page defaults
-title: Visual LAnguage Neural Congnitive Computing Lab
+title: Visual LAnguage Neural Cognitive Computing Lab
 subtitle: VLANC
-description: VLANC is dedicated Lab for the Visual LAnguage Neural Congnitive Computing under the Supervision of Dr. Nidhi Goyal
+description: VLANC is dedicated Lab for the Visual LAnguage Neural Cognitive Computing under the Supervision of Dr. Nidhi Goyal
 header: images/mainpgpic.jpeg
 footer: images/icon.png
 proofer: false
@@ -42,7 +42,7 @@ collections:
     output: true
   # generate page for each post
   posts:
-    output: true
+    output: false
 
 # jekyll plugins
 plugins:
@@ -51,6 +51,11 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-last-modified-at
+  - jekyll-seo-tag
+
+webmaster_verifications:
+  google: IzJ6yjbU8-HpzizxiRkRaSv9jVgdo6YF3VJ4GqLItMc
+  bing: 69FD02987979D9CCA5BF5A5ED19DBA27
 
 # code block syntax highlighting
 highlighter: rouge

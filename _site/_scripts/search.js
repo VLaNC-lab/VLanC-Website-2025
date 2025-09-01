@@ -5,8 +5,9 @@
 */
 {
   // elements to filter
-  const elementSelector = ".card, .citation, .post-excerpt";
+  const elementSelector = ".card, .citation, .post-excerpt, .feature-text";
   // search box element
+  console.log("jjknkjnjn")
   const searchBoxSelector = ".search-box";
   // results info box element
   const infoBoxSelector = ".search-info";

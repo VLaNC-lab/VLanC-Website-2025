@@ -3,6 +3,8 @@ title: Research
 nav:
   order: 1
   tooltip: Published works
+description: "Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces. At the VLANC Lab, we investigate cutting-edge areas such as Deep Generative Models, Natural Language Processing (NLP), and Visual Language understanding to build intelligent systems capable of reasoning, perception, and learning across modalities. As a leading Mahindra University AI Lab, the Visual Language Neural Cognitive Computing Lab fosters interdisciplinary innovation and contributes to the global AI community through impactful research, collaboration, and knowledge creation."
+keywords: [ "VLANC", Visual Language Neural Cognitive Computing Lab,"Visual Language", "Neural Cognitive Computing", "VLANC Lab", "AI Research", "Knowledge Graph", "Graph Neural Networks", "Multimodal AI", "Brain-Computer Interfaces", "Deep Generative Models", "Natural Language Processing", "Vision-Language Integration","NLP", "AI", "AI and Neuroscience lab", "Mahindra University AI lab", "Nidhi Goyal", "Dr. Nidhi Goyal","Research","Research Grants","Projects","Papers","Research Paper","Research Works","Collaborations", "Interdiscipline","Past Projects","Current Projects", "Ongoing Projects","Past Research","Current Research", "Ongoing Research" ]
 ---
 
 <!-- # {% include icon.html icon="fa-solid fa-microscope" %}Research -->
