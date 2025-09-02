@@ -18,12 +18,20 @@
 <meta name="google-site-verification" content="IzJ6yjbU8-HpzizxiRkRaSv9jVgdo6YF3VJ4GqLItMc">
 <meta name="msvalidate.01" content="69FD02987979D9CCA5BF5A5ED19DBA27">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","dateModified":"2025-05-29T17:29:07+05:30","description":"Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces. Several Courses are offered by Dr. Nidhi Goyal on Natural Language Processing (NLP), Foundation of Natural Language Processing (NLP) and Introduction to Computing (ITC) for Fall and Spring Semester.Students Project in Foundations of NLP, NLP - Fall 2024","headline":"Projects","url":"http://localhost:4000/course/fall-2024/projects/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","dateModified":"2025-09-01T19:22:22+05:30","description":"Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces. Several Courses are offered by Dr. Nidhi Goyal on Natural Language Processing (NLP), Foundation of Natural Language Processing (NLP) and Introduction to Computing (ITC) for Fall and Spring Semester.Students Project in Foundations of NLP, NLP - Fall 2024","headline":"Projects","url":"http://localhost:4000/course/fall-2024/projects/"}</script>
 <!-- End Jekyll SEO tag -->
  
   
 <meta name="keywords" content="VLANC, Visual Language Neural Cognitive Computing Lab, Visual Language, Neural Cognitive Computing, VLANC Lab, AI Research, Knowledge Graph, Graph Neural Networks, Multimodal AI, Brain-Computer Interfaces, Deep Generative Models, Natural Language Processing, Vision-Language Integration, NLP, AI, AI and Neuroscience lab, Mahindra University AI lab, Nidhi Goyal, Dr. Nidhi Goyal, Projects, Finding, Courses, Research, Conferences, NLP - Fall 2024, Recommended Conference, Publishing, Students Projects, Students Works">
  
+
+<meta name="content" content="VLANC, Visual Language Neural Cognitive Computing Lab, Visual Language, Neural Cognitive Computing, VLANC Lab, AI Research, Knowledge Graph, Graph Neural Networks, Multimodal AI, Brain-Computer Interfaces, Deep Generative Models, Natural Language Processing, Vision-Language Integration, NLP, AI, AI and Neuroscience lab, Mahindra University AI lab, Nidhi Goyal, Dr. Nidhi Goyal, Projects, Finding, Courses, Research, Conferences, NLP - Fall 2024, Recommended Conference, Publishing, Students Projects, Students Works">
+ 
+
+<meta name="description" content="Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces. Several Courses are offered by Dr. Nidhi Goyal on Natural Language Processing (NLP), Foundation of Natural Language Processing (NLP) and Introduction to Computing (ITC) for Fall and Spring Semester.Students Project in Foundations of NLP, NLP - Fall 2024">
+<meta name="content" content="Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces. Several Courses are offered by Dr. Nidhi Goyal on Natural Language Processing (NLP), Foundation of Natural Language Processing (NLP) and Introduction to Computing (ITC) for Fall and Spring Semester.Students Project in Foundations of NLP, NLP - Fall 2024">
+ 
+<link rel="canonical" href="https://vlanc.co.in/">
   <!--
   put your analytics (e.g. Google Analytics) tracking code here
   
@@ -858,14 +866,20 @@
       
     
       
+        <a href="/course/" data-tooltip="Courses Taught">
+          Course
+        </a>
+      
+    
+      
         <a href="/projects/" data-tooltip="Software, datasets, and more">
           Projects
         </a>
       
     
       
-        <a href="/course/" data-tooltip="Courses Taught">
-          Course
+        <a href="/team/" data-tooltip="About our team">
+          Team
         </a>
       
     
@@ -908,8 +922,19 @@
   --hover-dark: #2a2a2a;
   --border-color: #ccc;
 }
+<style>
+:root {
+  --text-color-light: #2c3e50;
+  --text-color-dark: #ecf0f1;
+  --bg-color-light: #ffffff;
+  --bg-color-dark: #1e1e1e;
+  --header-bg-light: #34495e;
+  --header-bg-dark: #2c3e50;
+  --hover-light: #f1f1f1;
+  --hover-dark: #2a2a2a;
+  --border-color: #ccc;
+}
 
-/* Light/dark mode support */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: var(--bg-color-dark);
@@ -940,6 +965,7 @@
     background-color: var(--header-bg-light);
     color: white;
   }
+  
   .projects-table tbody tr:hover {
     background-color: var(--hover-light);
   }
@@ -972,7 +998,7 @@ h2 {
 
 .projects-table th, .projects-table td {
   padding: 1rem;
-  text-align: left;
+  text-align: center;
   border: 1px solid var(--border-color);
 }
 
@@ -980,17 +1006,22 @@ h2 {
   width: 24px;
   height: 24px;
   vertical-align: middle;
-  filter: invert(0); /* default for light mode */
+  filter: invert(0);
 }
 
 @media (prefers-color-scheme: dark) {
   .github-icon {
-    filter: invert(1); /* inverts color to white in dark mode */
+    filter: invert(1);
   }
 }
 
 .projects-table a {
   display: inline-block;
+  text-align: center;
+}
+
+.projects-table td {
+  text-align: center; /* center content inside table cells */
 }
 
 @media (max-width: 768px) {
@@ -1006,11 +1037,15 @@ h2 {
     border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 1rem;
+    text-align: center;
   }
   .projects-table td {
-    text-align: right;
+    text-align: center;
     padding-left: 50%;
     position: relative;
+  }
+  .projects-table th {
+    text-align: center;
   }
   .projects-table td::before {
     content: attr(data-label);
@@ -1021,311 +1056,377 @@ h2 {
     text-align: left;
   }
 }
+
+.pagination {
+  margin-top: 10px;
+  text-align: center;
+}
+.pagination button {
+  padding: 0px 0px;
+  margin: 0px;
+}
+.pagination span {
+  font-weight: bold;
+  margin: 0 8px;
+}
 </style>
 
 <div class="page-container">
-  <h2>🚀 Final Project Showcase – Spring 2024</h2>
-  <table class="projects-table">
+  <h2>🚀 Final Project Showcase – Fall 2024</h2>
+  <table class="projects-table" id="projectTable">
     <thead>
       <tr>
-        <th>Team No.</th>
-        <th>Title</th>
-        <th>GitHub</th>
+        <th>Abbrebiation</th>
+        <th>Name</th>
+        <th>Rank</th>
       </tr>
     </thead>
     <tbody>
-      
-      <tr>
-        <td data-label="Team No.">1</td>
-        <td data-label="Title">Classifying Social Media Texts into Multiple Hate-Based Categories for Indian languages</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">2</td>
-        <td data-label="Title">Email Spam Clasifier</td>
-        <td data-label="GitHub"><a href="https://github.com/akshitaanusuri/nlp_Pro_eva2" target="_blank" title="View on GitHub">
+       
+            <tr>
+              <td data-label="Team No.">1</td>
+              <td data-label="Title">Classifying Social Media Texts into Multiple Hate-Based Categories for Indian languages</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">2</td>
+              <td data-label="Title">Email Spam Clasifier</td>
+              <td data-label="GitHub"><a href="https://github.com/akshitaanusuri/nlp_Pro_eva2" target="_blank" title="View on GitHub">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon">
 </a></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">3</td>
-        <td data-label="Title">Legal document summarization using NLP techniques</td>
-        <td data-label="GitHub"><a href="https://github.com/sanjanaailani/Legal-Document-Summarization-using-NLP.git" target="_blank" title="View on GitHub">
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">3</td>
+              <td data-label="Title">Legal document summarization using NLP techniques</td>
+              <td data-label="GitHub"><a href="https://github.com/sanjanaailani/Legal-Document-Summarization-using-NLP.git" target="_blank" title="View on GitHub">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon">
 </a></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">4</td>
-        <td data-label="Title">Mental health prediction</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">5</td>
-        <td data-label="Title">Language dialect identification system</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">6</td>
-        <td data-label="Title">Bias detection in legal documents</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">7</td>
-        <td data-label="Title">Pharmaceutical Drug Matching Assistant</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">8</td>
-        <td data-label="Title">Enhanced Learning Experience through Natural Language Processing</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">9</td>
-        <td data-label="Title">Duplicate Question pairs Detection</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">10</td>
-        <td data-label="Title">Therapy Session Analysis</td>
-        <td data-label="GitHub"><a href="https://drive.google.com/drive/folders/1KuoBHbAMKe2uoQiY5iL8nfwU-PpS3fjV?usp=drive_link" target="_blank" title="View on GitHub">
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">4</td>
+              <td data-label="Title">Mental health prediction</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">5</td>
+              <td data-label="Title">Language dialect identification system</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">6</td>
+              <td data-label="Title">Bias detection in legal documents</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">7</td>
+              <td data-label="Title">Pharmaceutical Drug Matching Assistant</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">8</td>
+              <td data-label="Title">Enhanced Learning Experience through Natural Language Processing</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">9</td>
+              <td data-label="Title">Duplicate Question pairs Detection</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">10</td>
+              <td data-label="Title">Therapy Session Analysis</td>
+              <td data-label="GitHub"><a href="https://drive.google.com/drive/folders/1KuoBHbAMKe2uoQiY5iL8nfwU-PpS3fjV?usp=drive_link" target="_blank" title="View on GitHub">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon">
 </a></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">11</td>
-        <td data-label="Title">Human pose estimator for fitness apllications</td>
-        <td data-label="GitHub"><a href="https://www.canva.com/design/DAGR3SwvBZk/ukuwqlCsrxN1xOyI7QScNA/edit" target="_blank" title="View on GitHub">
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">11</td>
+              <td data-label="Title">Human pose estimator for fitness apllications</td>
+              <td data-label="GitHub"><a href="https://www.canva.com/design/DAGR3SwvBZk/ukuwqlCsrxN1xOyI7QScNA/edit" target="_blank" title="View on GitHub">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon">
 </a></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">12</td>
-        <td data-label="Title">Event Extraction from Text</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">13</td>
-        <td data-label="Title">Health Diagnosis Interpreter</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">14</td>
-        <td data-label="Title">Linguistic Decoding of the Indus Valley Script</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">15</td>
-        <td data-label="Title">Essay grading</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">16</td>
-        <td data-label="Title">TextFlow Hinglish auto suggestions</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">17</td>
-        <td data-label="Title">Verbal Lie Detection</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">18</td>
-        <td data-label="Title">Automating Insights from Quarterly Earnings Reports Using NLP</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">19</td>
-        <td data-label="Title">NLP-Driven Dungeon Master for D&amp;D5e</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">20</td>
-        <td data-label="Title">Open Domain Question Answering based on NCERT</td>
-        <td data-label="GitHub"><a href="https://drive.google.com/file/d/1biCGCjNcObjHn2EeHC03uMnj-A7z_Gn-/view?usp=drivesdk" target="_blank" title="View on GitHub">
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">12</td>
+              <td data-label="Title">Event Extraction from Text</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">13</td>
+              <td data-label="Title">Health Diagnosis Interpreter</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">14</td>
+              <td data-label="Title">Linguistic Decoding of the Indus Valley Script</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">15</td>
+              <td data-label="Title">Essay grading</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">16</td>
+              <td data-label="Title">TextFlow Hinglish auto suggestions</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">17</td>
+              <td data-label="Title">Verbal Lie Detection</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">18</td>
+              <td data-label="Title">Automating Insights from Quarterly Earnings Reports Using NLP</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">19</td>
+              <td data-label="Title">NLP-Driven Dungeon Master for D&amp;D5e</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">20</td>
+              <td data-label="Title">Open Domain Question Answering based on NCERT</td>
+              <td data-label="GitHub"><a href="https://drive.google.com/file/d/1biCGCjNcObjHn2EeHC03uMnj-A7z_Gn-/view?usp=drivesdk" target="_blank" title="View on GitHub">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon">
 </a></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">21</td>
-        <td data-label="Title">Automated Interview System for Data Scientist Role</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">22</td>
-        <td data-label="Title">Book Summary Generator for Novels</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">23</td>
-        <td data-label="Title">Semantic search engine for IMDB Movies</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">24</td>
-        <td data-label="Title">Music Lyrics generation  with Emotion Analysis</td>
-        <td data-label="GitHub"><a href="https://github.com/Saishivanraj/Music-lyrics-generation-with-emotional-analysis" target="_blank" title="View on GitHub">
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">21</td>
+              <td data-label="Title">Automated Interview System for Data Scientist Role</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">22</td>
+              <td data-label="Title">Book Summary Generator for Novels</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">23</td>
+              <td data-label="Title">Semantic search engine for IMDB Movies</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">24</td>
+              <td data-label="Title">Music Lyrics generation  with Emotion Analysis</td>
+              <td data-label="GitHub"><a href="https://github.com/Saishivanraj/Music-lyrics-generation-with-emotional-analysis" target="_blank" title="View on GitHub">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon">
 </a></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">25</td>
-        <td data-label="Title">Automated Speech Assessment System for Language Learners</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">26</td>
-        <td data-label="Title">NLP-Driven Interview Response Analyzer</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">27</td>
-        <td data-label="Title">Automatic Essay Grading System</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">28</td>
-        <td data-label="Title">NLP FOR LEGAL DOCUMENTS ANALYSIS</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">29</td>
-        <td data-label="Title">News Reader Chatbot for telugu community</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">30</td>
-        <td data-label="Title">DeepQuery - A Masters’ Statement of Purpose (SOP) Strength Analyzer</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">31</td>
-        <td data-label="Title">Senior Digital Assistant</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">32</td>
-        <td data-label="Title">Resume parser</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">33</td>
-        <td data-label="Title">Recipe Assistant</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">34</td>
-        <td data-label="Title">Dialogue act Classification</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">35</td>
-        <td data-label="Title">Mining critical features from reviews using TOPIC MODELING</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">36</td>
-        <td data-label="Title">Language Identifier</td>
-        <td data-label="GitHub"><a href="https://github.com/suhrudh09/team-36" target="_blank" title="View on GitHub">
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">25</td>
+              <td data-label="Title">Automated Speech Assessment System for Language Learners</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">26</td>
+              <td data-label="Title">NLP-Driven Interview Response Analyzer</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">27</td>
+              <td data-label="Title">Automatic Essay Grading System</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">28</td>
+              <td data-label="Title">NLP FOR LEGAL DOCUMENTS ANALYSIS</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">29</td>
+              <td data-label="Title">News Reader Chatbot for telugu community</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">30</td>
+              <td data-label="Title">DeepQuery - A Masters’ Statement of Purpose (SOP) Strength Analyzer</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">31</td>
+              <td data-label="Title">Senior Digital Assistant</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">32</td>
+              <td data-label="Title">Resume parser</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">33</td>
+              <td data-label="Title">Recipe Assistant</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">34</td>
+              <td data-label="Title">Dialogue act Classification</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">35</td>
+              <td data-label="Title">Mining critical features from reviews using TOPIC MODELING</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">36</td>
+              <td data-label="Title">Language Identifier</td>
+              <td data-label="GitHub"><a href="https://github.com/suhrudh09/team-36" target="_blank" title="View on GitHub">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon">
 </a></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">37</td>
-        <td data-label="Title">Haiku Generator</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">38</td>
-        <td data-label="Title">Text-based Personality Prediction</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">39</td>
-        <td data-label="Title">Code Switching NER</td>
-        <td data-label="GitHub"><a href="https://drive.google.com/file/d/1CcTdqLVNr335XuKcccRDnUf6gOx--Zb6/view?usp=sharing" target="_blank" title="View on GitHub">
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">37</td>
+              <td data-label="Title">Haiku Generator</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">38</td>
+              <td data-label="Title">Text-based Personality Prediction</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">39</td>
+              <td data-label="Title">Code Switching NER</td>
+              <td data-label="GitHub"><a href="https://drive.google.com/file/d/1CcTdqLVNr335XuKcccRDnUf6gOx--Zb6/view?usp=sharing" target="_blank" title="View on GitHub">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon">
 </a></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">40</td>
-        <td data-label="Title">Mixed language translation</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">41</td>
-        <td data-label="Title">Automated text summarization - precision in paragraph</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">42</td>
-        <td data-label="Title">Smart news hub</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">43</td>
-        <td data-label="Title">Emotion detection</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">44</td>
-        <td data-label="Title">Grammar detection</td>
-        <td data-label="GitHub"><a href="https://drive.google.com/drive/folders/1fy56cDVCyS_cLk61_-wkFmWkA0FrV1xM" target="_blank" title="View on GitHub">
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">40</td>
+              <td data-label="Title">Mixed language translation</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">41</td>
+              <td data-label="Title">Automated text summarization - precision in paragraph</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">42</td>
+              <td data-label="Title">Smart news hub</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">43</td>
+              <td data-label="Title">Emotion detection</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">44</td>
+              <td data-label="Title">Grammar detection</td>
+              <td data-label="GitHub"><a href="https://drive.google.com/drive/folders/1fy56cDVCyS_cLk61_-wkFmWkA0FrV1xM" target="_blank" title="View on GitHub">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon">
 </a></td>
-      </tr>
-      
-      <tr>
-        <td data-label="Team No.">45</td>
-        <td data-label="Title">Word Analogy Finder</td>
-        <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
-      </tr>
-      
+            </tr>
+            
+            <tr>
+              <td data-label="Team No.">45</td>
+              <td data-label="Title">Word Analogy Finder</td>
+              <td data-label="GitHub"><span style="opacity: 0.6;">N/A</span></td>
+            </tr>
+            
     </tbody>
   </table>
+
+  <!-- Pagination controls -->
+  <div class="pagination">
+    <button id="prevBtn">⬅️ </button>
+    <span id="pageInfo"></span>
+    <button id="nextBtn"> ➡️</button>
+  </div>
 </div>
+
+<script>
+const rowsPerPage = 20;
+let currentPage = 1;
+
+function renderPagination() {
+  const table = document.getElementById("projectTable");
+  const tbody = table.querySelector("tbody");
+  const rows = tbody.querySelectorAll("tr");
+
+  const totalRows = rows.length;
+  const totalPages = Math.ceil(totalRows / rowsPerPage);
+
+  rows.forEach((row, index) => {
+    row.style.display =
+      index >= (currentPage - 1) * rowsPerPage && index < currentPage * rowsPerPage
+        ? ""
+        : "none";
+  });
+
+  document.getElementById("pageInfo").textContent = `Page ${currentPage} of ${totalPages}`;
+  document.getElementById("prevBtn").disabled = currentPage === 1;
+  document.getElementById("nextBtn").disabled = currentPage === totalPages;
+}
+
+document.getElementById("prevBtn").addEventListener("click", () => {
+  if (currentPage > 1) {
+    currentPage--;
+    renderPagination();
+  }
+});
+
+document.getElementById("nextBtn").addEventListener("click", () => {
+  const table = document.getElementById("projectTable");
+  const rows = table.querySelectorAll("tbody tr");
+  const totalPages = Math.ceil(rows.length / rowsPerPage);
+
+  if (currentPage < totalPages) {
+    currentPage++;
+    renderPagination();
+  }
+});
+
+// Initial render
+renderPagination();
+</script>
   </section>
 
 
@@ -1394,7 +1495,7 @@ h2 {
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://github.com/VLaNC-lab/mu-nlp-course" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+    <a class="button" href="https://github.com/VLaNC-lab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
       <i class="icon fa-brands fa-github"></i>
       
     </a>

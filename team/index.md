@@ -3,7 +3,7 @@ title: Team
 nav:
   order: 3
   tooltip: About our team
-description: "Our Visual LAnguage Neural Cognitive Computing (VLANC) Teams include current students, past students, alumni, undergrad (bachelors) students, masters (postgraduate/PG) students, and researchers passionate about advancing Visual Language and Neural Cognitive Computing. VLANC Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces.
+description: "Our Visual LAnguage Neural Cognitive Computing (VLANC) Teams include current students, past students, alumni, undergrad (bachelors) students, masters (postgraduate/PG) students, and researchers passionate about advancing Visual Language and Neural Cognitive Computing. VLANC Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces."
 keywords: [ "VLANC", Visual Language Neural Cognitive Computing Lab,"Visual Language", "Neural Cognitive Computing", "VLANC Lab", "AI Research", "Knowledge Graph", "Graph Neural Networks", "Multimodal AI", "Brain-Computer Interfaces", "Deep Generative Models", "Natural Language Processing", "Vision-Language Integration","NLP", "AI", "AI and Neuroscience lab", "Mahindra University AI lab", "Nidhi Goyal", "Dr. Nidhi Goyal", "Teams", "Students","Past Students", "Current Students", "Allumini","Undergrad Students","Bachelors Students", "Masters Students", "PG Students","Postgraduate Students","International Students"]
 ---
 

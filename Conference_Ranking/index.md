@@ -1,9 +1,8 @@
 ---
-layout: default
-title: Projects
-permalink: /course/spring-2024/projects/
-description: "Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces. Several Courses are offered by Dr. Nidhi Goyal on Natural Language Processing (NLP), Foundation of Natural Language Processing (NLP) and Introduction to Computing (ITC) for Fall and Spring Semester.Students Project in Foundations of NLP, NLP - Spring 2024" 
-keywords: [ "VLANC", Visual Language Neural Cognitive Computing Lab,"Visual Language", "Neural Cognitive Computing", "VLANC Lab", "AI Research", "Knowledge Graph", "Graph Neural Networks", "Multimodal AI", "Brain-Computer Interfaces", "Deep Generative Models", "Natural Language Processing", "Vision-Language Integration","NLP", "AI", "AI and Neuroscience lab", "Mahindra University AI lab", "Nidhi Goyal", "Dr. Nidhi Goyal","Projects","Finding","Courses","Research", "Conferences", "NLP - Spring 2024", "Recommended Conference","Publishing","Students Projects","Students Works"]
+title: Conf.
+description: "Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces. Core CSE Conference List, Conference Listing, Core Conference Ranking" 
+keywords: [ "VLANC", Visual Language Neural Cognitive Computing Lab,"Visual Language", "Neural Cognitive Computing", "VLANC Lab", "AI Research", "Knowledge Graph", "Graph Neural Networks", "Multimodal AI", "Brain-Computer Interfaces", "Deep Generative Models", "Natural Language Processing", "Vision-Language Integration","NLP", "AI", "AI and Neuroscience lab", "Mahindra University AI lab", "Nidhi Goyal", "Dr. Nidhi Goyal","Research","Core CSE Conference List", "Conference Listing", "Core Conference Ranking" ]
+permalink: /core_cse_conference/
 ---
 <style>
 :root {
@@ -48,6 +47,7 @@ keywords: [ "VLANC", Visual Language Neural Cognitive Computing Lab,"Visual Lang
     background-color: var(--header-bg-light);
     color: white;
   }
+  
   .projects-table tbody tr:hover {
     background-color: var(--hover-light);
   }
@@ -80,7 +80,7 @@ h2 {
 
 .projects-table th, .projects-table td {
   padding: 1rem;
-  text-align: left;
+  text-align: center;
   border: 1px solid var(--border-color);
 }
 
@@ -99,6 +99,11 @@ h2 {
 
 .projects-table a {
   display: inline-block;
+  text-align: center;
+}
+
+.projects-table td {
+  text-align: center; /* center content inside table cells */
 }
 
 @media (max-width: 768px) {
@@ -114,11 +119,15 @@ h2 {
     border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 1rem;
+    text-align: center;
   }
   .projects-table td {
-    text-align: right;
+    text-align: center;
     padding-left: 50%;
     position: relative;
+  }
+  .projects-table th {
+    text-align: center;
   }
   .projects-table td::before {
     content: attr(data-label);
@@ -131,49 +140,51 @@ h2 {
 }
 
 .pagination {
-  margin-top: 15px;
+  margin-top: 10px;
   text-align: center;
 }
 .pagination button {
-  padding: 6px 12px;
-  margin: 5px;
+  padding: 0px 0px;
+  margin: 0px;
 }
 .pagination span {
   font-weight: bold;
-  margin: 0 10px;
+  margin: 0 8px;
 }
+
+.search-filter-container {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 </style>
 
 <div class="page-container">
-  <h2>🚀 Final Project Showcase – Spring 2024</h2>
-  <table id="projectTable" class="projects-table">
+  <h2>🎤 Core CSE Conferences</h2>
+  
+  <table class="projects-table" id="projectTable">
     <thead>
-      <tr>
-        <th>Team No.</th>
-        <th>Title</th>
-        <th>GitHub</th>
+      <tr >
+        <th>Abbrebiation</th>
+        <th>Name</th>
+        <th>Rank</th>
       </tr>
     </thead>
     <tbody>
-      {% for project in site.data.spring-project.spring-2024 %}
+      {% for conf in site.data.conference_data.data %}
       <tr>
-        <td data-label="Team No.">{{ project.team_no }}</td>
-        <td data-label="Title">{{ project.title }}</td>
-        <td data-label="GitHub">
-          {% if project.github and project.github != "" %}
-            <a href="{{ project.github }}" target="_blank" title="View on GitHub">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon" />
-            </a>
-          {% else %}
-            <span style="opacity: 0.6;">N/A</span>
-          {% endif %}
-        </td>
+        <td data-label="Abbr">{{ conf.acronym }}</td>
+        <td data-label="Title">{{ conf.name }}</td>
+        <td data-label="Rank">{{ conf.rank }}</td>
       </tr>
       {% endfor %}
     </tbody>
   </table>
 
- <!-- Pagination controls -->
+  <!-- Pagination controls -->
   <div class="pagination">
     <button id="prevBtn">⬅️ </button>
     <span id="pageInfo"></span>
@@ -187,7 +198,9 @@ let currentPage = 1;
 
 function renderPagination() {
   const table = document.getElementById("projectTable");
-  const rows = table.querySelectorAll("tbody tr");
+  const tbody = table.querySelector("tbody");
+  const rows = tbody.querySelectorAll("tr");
+
   const totalRows = rows.length;
   const totalPages = Math.ceil(totalRows / rowsPerPage);
 
@@ -211,8 +224,14 @@ document.getElementById("prevBtn").addEventListener("click", () => {
 });
 
 document.getElementById("nextBtn").addEventListener("click", () => {
-  currentPage++;
-  renderPagination();
+  const table = document.getElementById("projectTable");
+  const rows = table.querySelectorAll("tbody tr");
+  const totalPages = Math.ceil(rows.length / rowsPerPage);
+
+  if (currentPage < totalPages) {
+    currentPage++;
+    renderPagination();
+  }
 });
 
 // Initial render

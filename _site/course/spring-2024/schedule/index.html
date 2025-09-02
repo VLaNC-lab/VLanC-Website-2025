@@ -18,12 +18,20 @@
 <meta name="google-site-verification" content="IzJ6yjbU8-HpzizxiRkRaSv9jVgdo6YF3VJ4GqLItMc">
 <meta name="msvalidate.01" content="69FD02987979D9CCA5BF5A5ED19DBA27">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","dateModified":"2025-09-01T13:54:34+05:30","description":"Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces. Several Courses are offered by Dr. Nidhi Goyal on Natural Language Processing (NLP), Foundation of Natural Language Processing (NLP) and Introduction to Computing (ITC) for Fall and Spring Semester.Schedule of Foundations of NLP, NLP - Spring 2024","headline":"schedule","url":"http://localhost:4000/course/spring-2024/schedule/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","dateModified":"2025-09-01T19:22:22+05:30","description":"Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces. Several Courses are offered by Dr. Nidhi Goyal on Natural Language Processing (NLP), Foundation of Natural Language Processing (NLP) and Introduction to Computing (ITC) for Fall and Spring Semester.Schedule of Foundations of NLP, NLP - Spring 2024","headline":"schedule","url":"http://localhost:4000/course/spring-2024/schedule/"}</script>
 <!-- End Jekyll SEO tag -->
  
   
 <meta name="keywords" content="VLANC, Visual Language Neural Cognitive Computing Lab, Visual Language, Neural Cognitive Computing, VLANC Lab, AI Research, Knowledge Graph, Graph Neural Networks, Multimodal AI, Brain-Computer Interfaces, Deep Generative Models, Natural Language Processing, Vision-Language Integration, NLP, AI, AI and Neuroscience lab, Mahindra University AI lab, Nidhi Goyal, Dr. Nidhi Goyal, Projects, Finding, Courses, Research, Readings, NLP - Spring 2024, Office Hours, Class Schedule">
  
+
+<meta name="content" content="VLANC, Visual Language Neural Cognitive Computing Lab, Visual Language, Neural Cognitive Computing, VLANC Lab, AI Research, Knowledge Graph, Graph Neural Networks, Multimodal AI, Brain-Computer Interfaces, Deep Generative Models, Natural Language Processing, Vision-Language Integration, NLP, AI, AI and Neuroscience lab, Mahindra University AI lab, Nidhi Goyal, Dr. Nidhi Goyal, Projects, Finding, Courses, Research, Readings, NLP - Spring 2024, Office Hours, Class Schedule">
+ 
+
+<meta name="description" content="Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces. Several Courses are offered by Dr. Nidhi Goyal on Natural Language Processing (NLP), Foundation of Natural Language Processing (NLP) and Introduction to Computing (ITC) for Fall and Spring Semester.Schedule of Foundations of NLP, NLP - Spring 2024">
+<meta name="content" content="Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra University integrates AI, Vision, Language, and Neural Computation for multimodal understanding, Knowledge Graphs, GNNs, and Brain-computer Interfaces. Several Courses are offered by Dr. Nidhi Goyal on Natural Language Processing (NLP), Foundation of Natural Language Processing (NLP) and Introduction to Computing (ITC) for Fall and Spring Semester.Schedule of Foundations of NLP, NLP - Spring 2024">
+ 
+<link rel="canonical" href="https://vlanc.co.in/">
   <!--
   put your analytics (e.g. Google Analytics) tracking code here
   
@@ -866,14 +874,20 @@
       
     
       
+        <a href="/course/" data-tooltip="Courses Taught">
+          Course
+        </a>
+      
+    
+      
         <a href="/projects/" data-tooltip="Software, datasets, and more">
           Projects
         </a>
       
     
       
-        <a href="/course/" data-tooltip="Courses Taught">
-          Course
+        <a href="/team/" data-tooltip="About our team">
+          Team
         </a>
       
     
@@ -905,125 +919,170 @@
 
   <section class="background" data-size="page">
     <style>
+:root {
+  --text-color-light: #2c3e50;
+  --text-color-dark: #ecf0f1;
+  --bg-color-light: #ffffff;
+  --bg-color-dark: #1e1e1e;
+  --header-bg-light: #34495e;
+  --header-bg-dark: #2c3e50;
+  --hover-light: #f1f1f1;
+  --hover-dark: #2a2a2a;
+  --border-color: #ccc;
+}
+<style>
+:root {
+  --text-color-light: #2c3e50;
+  --text-color-dark: #ecf0f1;
+  --bg-color-light: #ffffff;
+  --bg-color-dark: #1e1e1e;
+  --header-bg-light: #34495e;
+  --header-bg-dark: #2c3e50;
+  --hover-light: #f1f1f1;
+  --hover-dark: #2a2a2a;
+  --border-color: #ccc;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+  }
+  .projects-table {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+  }
+  .projects-table thead {
+    background-color: var(--header-bg-dark);
+  }
+  .projects-table tbody tr:hover {
+    background-color: var(--hover-dark);
+  }
+  a.hover{
+  color: white;       
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+  }
+  .projects-table {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+  }
+  .projects-table thead {
+    background-color: var(--header-bg-light);
+    color: white;
+  }
+  
+  .projects-table tbody tr:hover {
+    background-color: var(--hover-light);
+  }
+   a.hover{
+  color: white;       
+  }
+}
+
 .page-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;  /* vertical center */
-  align-items: center;      /* horizontal center */
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
   box-sizing: border-box;
   text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Limit width and style course info box */
-.course-info {
-  max-width: 800px;
-  background-color: #f9f9f9;
-  border-left: 4px solid #007acc;
-  padding: 1rem;
-  border-radius: 6px;
-  margin-bottom: 0.5rem;
-  color: #222;
+h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
-
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-  .course-info {
-    background-color: #1e1e1e;
-    border-left-color: #66ccff;
-    color: #f0f0f0;
-  }
-}
-
-/* Reduce margin above and below headings */
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-/* Center the faculty portraits container */
-.portrait-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  gap: 1rem; /* Adjust gap between portraits */
-}
-
 
 .projects-table {
+  width: 100%;
+  max-width: 1100px;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.projects-table th, .projects-table td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
+
+.github-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  filter: invert(0);
+}
+
+@media (prefers-color-scheme: dark) {
+  .github-icon {
+    filter: invert(1);
+  }
+}
+
+.projects-table a {
+  display: inline-block;
+  text-align: center;
+}
+
+.projects-table td {
+  text-align: center; /* center content inside table cells */
+}
+
+@media (max-width: 768px) {
+  .projects-table thead {
+    display: none;
+  }
+  .projects-table, .projects-table tbody, .projects-table tr, .projects-table td {
+    display: block;
     width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 2rem;
-    font-family: "Segoe UI", sans-serif;
-    font-size: 15px;
   }
-
-  .projects-table th,
+  .projects-table tr {
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+  }
   .projects-table td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
-    vertical-align: top;
+    text-align: center;
+    padding-left: 50%;
+    position: relative;
   }
-
   .projects-table th {
-    background-color: #f5f5f5;
+    text-align: center;
+  }
+  .projects-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 1rem;
+    width: 45%;
     font-weight: bold;
-    color: #333;
+    text-align: left;
   }
+}
 
-  .projects-table td ul {
-    margin: 0;
-    padding-left: 1.2rem;
-  }
-
-  .projects-table td li {
-    margin-bottom: 4px;
-  }
-
-  .projects-table a {
-    color: #007acc;
-    text-decoration: none;
-  }
-
-  .projects-table a:hover {
-    text-decoration: underline;
-  }
-
-  .projects-table .na {
-    color: #888;
-    font-style: italic;
-  }
-
-  @media (max-width: 768px) {
-    .projects-table thead {
-      display: none;
-    }
-
-    .projects-table tr {
-      display: block;
-      margin-bottom: 15px;
-      border-bottom: 2px solid #ccc;
-    }
-
-    .projects-table td {
-      display: block;
-      text-align: right;
-      padding-left: 50%;
-      position: relative;
-    }
-
-    .projects-table td::before {
-      content: attr(data-label);
-      position: absolute;
-      left: 12px;
-      top: 12px;
-      font-weight: bold;
-      color: #555;
-      text-align: left;
-    }
-  }
+.pagination {
+  margin-top: 10px;
+  text-align: center;
+}
+.pagination button {
+  padding: 0px 0px;
+  margin: 0px;
+}
+.pagination span {
+  font-weight: bold;
+  margin: 0 8px;
+}
 </style>
 
 <div class="page-container">
@@ -1068,7 +1127,7 @@ h1, h2, h3, h4, h5, h6 {
 
     <div class="page-container">
   <h2>📘 NLP Course Weekly Schedule – Spring 2024</h2>
-  <table class="projects-table">
+  <table class="projects-table" id="projectTable">
   <thead>
     <tr>
       <th>Week</th>
@@ -1085,7 +1144,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Topic">Introduction to NLP and its applications</td>
 
       <td data-label="Lecture Slides">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://labs.vlanc.co.in/teachings/NLP-Lecture-01.pdf" target="_blank">Slides 1</a></li>
 </ul>
 </td>
@@ -1100,13 +1159,13 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Topic">Regular Expressions, Text Normalization</td>
 
       <td data-label="Lecture Slides">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://labs.vlanc.co.in/teachings/NLP-Lecture-02.pdf" target="_blank">Slides 1</a></li>
 </ul>
 </td>
 
       <td data-label="Assignments">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li>Assignment 1 (given in class)</li>
 </ul>
 </td>
@@ -1119,7 +1178,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Topic">Text pre-processing (Stop Words, Bag-of-Words, TF-IDF, POS Tagging, NER)</td>
 
       <td data-label="Lecture Slides">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://labs.vlanc.co.in/teachings/NLP-Lecture-03.pdf" target="_blank">Slides 1</a></li>
 </ul>
 </td>
@@ -1127,7 +1186,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Assignments"><span style="opacity: 0.6;">N/A</span></td>
 
       <td data-label="Readings">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes01.pdf" target="_blank">N-gram Language Models (Textbook Chapter)</a></li>
 </ul>
 </td>
@@ -1138,19 +1197,19 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Topic">Distributional semantics, Vector Embeddings</td>
 
       <td data-label="Lecture Slides">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://labs.vlanc.co.in/teachings/NLP-Lecture-04.pdf" target="_blank">Slides 1</a></li>
 </ul>
 </td>
 
       <td data-label="Assignments">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li>Assignment 2 (released)</li>
 </ul>
 </td>
 
       <td data-label="Readings">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes02.pdf" target="_blank">Vector Semantics and Embeddings (Textbook Chapter)</a></li>
 </ul>
 </td>
@@ -1161,7 +1220,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Topic">Language Models - Probabilistic Language Modeling</td>
 
       <td data-label="Lecture Slides">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://labs.vlanc.co.in/teachings/NLP-Lecture-05.pdf" target="_blank">Slides 1</a></li>
 </ul>
 </td>
@@ -1169,7 +1228,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Assignments"><span style="opacity: 0.6;">N/A</span></td>
 
       <td data-label="Readings">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes01.pdf" target="_blank">N-gram Language Models (Textbook Chapter)</a></li>
 <li><a href="https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html" target="_blank">PyTorch Basics</a></li>
 </ul>
@@ -1181,7 +1240,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Topic">Neural Networks and Neural Language Modeling</td>
 
       <td data-label="Lecture Slides">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://labs.vlanc.co.in/teachings/NLP-Lecture-06.pdf" target="_blank">Slides 1</a></li>
 </ul>
 </td>
@@ -1189,7 +1248,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Assignments"><span style="opacity: 0.6;">N/A</span></td>
 
       <td data-label="Readings">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes03.pdf" target="_blank">Neural Networks and Neural Language Models (Textbook Chapter)</a></li>
 <li><a href="https://github.com/yunjey/pytorch-tutorial" target="_blank">PyTorch Hands-on Tutorials</a></li>
 <li><a href="https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes04.pdf" target="_blank">Neural Networks, Backpropagation [Notes-CS224n]</a></li>
@@ -1202,7 +1261,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Topic">Recurrent Neural Networks, LSTM</td>
 
       <td data-label="Lecture Slides">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://labs.vlanc.co.in/teachings/NLP-Lecture-07.pdf" target="_blank">Slides 1</a></li>
 <li><a href="https://labs.vlanc.co.in/teachings/lec02_rnn.pdf" target="_blank">Slides 2</a></li>
 </ul>
@@ -1211,7 +1270,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Assignments"><span style="opacity: 0.6;">N/A</span></td>
 
       <td data-label="Readings">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes05.pdf" target="_blank">RNNs and LSTMs (Textbook Chapter)</a></li>
 <li><a href="https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes06.pdf" target="_blank">Language Models, RNN and LSTM [CS224n Lecture Notes]</a></li>
 <li><a href="https://drive.google.com/file/d/1RNN_PyTorch_Slides/view" target="_blank">RNN PyTorch Slides &amp; Implementation</a></li>
@@ -1226,7 +1285,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Topic">Advanced topics - Encoder Decoder Models, Attention</td>
 
       <td data-label="Lecture Slides">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://labs.vlanc.co.in/teachings/NLP-Lecture-08_updated.pdf" target="_blank">Slides 1</a></li>
 </ul>
 </td>
@@ -1234,7 +1293,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Assignments"><span style="opacity: 0.6;">N/A</span></td>
 
       <td data-label="Readings">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes08.pdf" target="_blank">Transformers (Textbook Chapter)</a></li>
 </ul>
 </td>
@@ -1245,7 +1304,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Topic">Advanced topics - Multi-head attention, Transformers</td>
 
       <td data-label="Lecture Slides">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://labs.vlanc.co.in/teachings/NLP-Lecture-09.pdf" target="_blank">Slides 1</a></li>
 </ul>
 </td>
@@ -1253,7 +1312,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Assignments"><span style="opacity: 0.6;">N/A</span></td>
 
       <td data-label="Readings">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://github.com/jessevig/bertviz" target="_blank">BERT Visualization</a></li>
 </ul>
 </td>
@@ -1264,7 +1323,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Topic">Advanced topics - BLEU Score, Introduction to LLM’s Pretraining, Fine-tuning</td>
 
       <td data-label="Lecture Slides">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://labs.vlanc.co.in/teachings/NLP-Lecture-10.pdf" target="_blank">Slides 1</a></li>
 </ul>
 </td>
@@ -1272,7 +1331,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Assignments"><span style="opacity: 0.6;">N/A</span></td>
 
       <td data-label="Readings">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://jalammar.github.io/illustrated-transformer/" target="_blank">The Illustrated Transformer by Jay Alammar</a></li>
 <li><a href="https://arxiv.org/abs/1706.03762" target="_blank">Attention is all you Need [Research Paper]</a></li>
 <li><a href="https://nlp.seas.harvard.edu/2018/04/03/attention.html" target="_blank">Attention Visualization</a></li>
@@ -1285,7 +1344,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Topic">Advanced topics - MLM, BERT and NLP Applications</td>
 
       <td data-label="Lecture Slides">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://labs.vlanc.co.in/teachings/NLP-Lecture-11.pdf" target="_blank">Slides 1</a></li>
 </ul>
 </td>
@@ -1293,7 +1352,7 @@ h1, h2, h3, h4, h5, h6 {
       <td data-label="Assignments"><span style="opacity: 0.6;">N/A</span></td>
 
       <td data-label="Readings">
-<ul>
+<ul style="list-style-type: none; padding-left: 0; margin: 0;">
 <li><a href="https://jalammar.github.io/illustrated-bert/" target="_blank">The Illustrated BERT, ELMo, and co. by Jay Alammar</a></li>
 <li><a href="https://arxiv.org/abs/1810.04805" target="_blank">BERT [Research Paper]</a></li>
 <li><a href="https://huggingface.co/transformers/model_doc/bert.html" target="_blank">Hugging Face - BERT</a></li>
@@ -1303,18 +1362,8 @@ h1, h2, h3, h4, h5, h6 {
     
   </tbody>
 </table>
-
-
-
-
-
 </div>
-
   </details>
-
-
-
-
 </section>
 </div>
   </section>
@@ -1385,7 +1434,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://github.com/VLaNC-lab/mu-nlp-course" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+    <a class="button" href="https://github.com/VLaNC-lab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
       <i class="icon fa-brands fa-github"></i>
       
     </a>
