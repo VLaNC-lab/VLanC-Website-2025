@@ -171,9 +171,9 @@ h2 {
   <table class="projects-table" id="projectTable">
     <thead>
       <tr >
-        <th>Abbrebiation</th>
-        <th>Name</th>
-        <th>Rank</th>
+        <th>Team No.</th>
+        <th>Title</th>
+        <th>GitHub</th>
       </tr>
     </thead>
     <tbody>

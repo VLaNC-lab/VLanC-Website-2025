@@ -9,7 +9,8 @@ keywords: [ "VLANC", Visual Language Neural Cognitive Computing Lab,"Visual Lang
 
 <!-- # {% include icon.html icon="fa-solid fa-microscope" %}Research -->
 
-# 🔬 Research
+ 
+<h1 style="text-align: center; font-weight: bold;">🔬 Research </h1>
 
 At the **Visual Language Neural Cognitive Computing (VLANC) Lab**, our research focuses on the intersection of artificial intelligence, cognitive science, and multimodal learning. We explore how machines can understand and integrate **language, vision, and structured knowledge** to simulate human-like cognition and reasoning.
 
@@ -47,7 +48,8 @@ Our goal is to push the boundaries of AI to create systems that can **think, lea
 {% include section.html %}
 
 
-## Research Papers
+ 
+<h2 style="text-align: center; font-weight: bold;">Research Papers </h2>
 
 {% include search-box.html %}
 

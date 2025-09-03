@@ -7,8 +7,8 @@ description: "Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra
 keywords: [ "VLANC", Visual Language Neural Cognitive Computing Lab,"Visual Language", "Neural Cognitive Computing", "VLANC Lab", "AI Research", "Knowledge Graph", "Graph Neural Networks", "Multimodal AI", "Brain-Computer Interfaces", "Deep Generative Models", "Natural Language Processing", "Vision-Language Integration","NLP", "AI", "AI and Neuroscience lab", "Mahindra University AI lab", "Nidhi Goyal", "Dr. Nidhi Goyal","Projects","Finding","Courses","Research" ]
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
-
+# 
+<h1 style="text-align: center; font-weight: bold;">{% include icon.html icon="fa-regular fa-envelope" %}Contact </h1>
 For collaboration, student opportunities, or general inquiries, feel free to reach out to us. We welcome discussions around **research**, **projects**, and **interdisciplinary initiatives**.
 
 {%
