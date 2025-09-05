@@ -179,7 +179,7 @@ h2 {
 {% assign course = site.data.spring-2024 | where: "title", "CS3126" | first %}
 
 {% if course %}
-<h1>📘 Course Info: {{ course.title }}</h1>
+<h1 style="text-align: center; font-weight: bold;">📘 Course Info: {{ course.title }}</h1>
 
 <div class="course-info">
   {{ course.course_info }}
@@ -195,7 +195,7 @@ h2 {
   
 
 <div class="page-container">
-  <h2>📘 NLP Course Weekly Schedule – Spring 2024</h2>
+  <h2 style="text-align: center; font-weight: bold;">📘 NLP Course Weekly Schedule – Spring 2024</h2>
   <table class="projects-table" id="projectTable">
   <thead>
     <tr>

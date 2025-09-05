@@ -2,6 +2,7 @@
 {% assign button = button | hash_default: site.data.types[include.type] %}
 
 {% if button.link or button.icon or button.text %}
+ {% if button.link %}
   <div class="button-wrapper">
     <a
       class="button"
@@ -21,4 +22,12 @@
       {% endif %}
     </a>
   </div>
+ {% else %}
+  <div class="button-wrapper">
+      {% include icon.html icon=button.icon %}
+      {% if button.text and button.text != "" %}
+        <span>{{ button.text }}</span>
+      {% endif %}
+  </div>
+{% endif %}
 {% endif %}

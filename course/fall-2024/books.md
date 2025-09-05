@@ -95,7 +95,10 @@ hr {
 
 <div class="page-container">
 
-<h1>{% include icon.html icon="fa-person-chalkboard" %} Recommended Books for Foundations of NLP - Fall 2024, MU</h1>
+<h1 style="text-align: center; font-weight: bold;">{% include icon.html icon="fa-person-chalkboard" %} Recommended Books for Foundations of NLP - Fall 2024, MU</h1>
+
+
+
 
 <!-- Book Display Section -->
 <div class="book-list">

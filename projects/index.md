@@ -7,7 +7,8 @@ description: "Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra
 keywords: [ "VLANC", Visual Language Neural Cognitive Computing Lab,"Visual Language", "Neural Cognitive Computing", "VLANC Lab", "AI Research", "Knowledge Graph", "Graph Neural Networks", "Multimodal AI", "Brain-Computer Interfaces", "Deep Generative Models", "Natural Language Processing", "Vision-Language Integration","NLP", "AI", "AI and Neuroscience lab", "Mahindra University AI lab", "Nidhi Goyal", "Dr. Nidhi Goyal","Research","Research Grants","Projects","Papers","Research Paper","Research Works","Collaborations", "Interdiscipline","Past Projects","Current Projects", "Ongoing Projects","Past Research","Current Research", "Ongoing Research","Funding","Past Funding","Ongoing Funding" ]
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects, Funding, Featured & Grant
+<h1 style="text-align: center; font-weight: bold;">{% include icon.html icon="fa-solid fa-wrench" %}Projects, Funding, Featured & Grant</h1>
+
 
 At the **VLANC** Lab, our research is centered on integrating **vision**, **language**, and **knowledge** to build intelligent systems that can comprehend and reason over multimodal data. Our ongoing projects span a range of areas, including:
 
@@ -32,24 +33,20 @@ Deep generative models for interpreting brain-computer interface (BCI) signals
 </details>
 
 
-
-
-
-
-
 We are also actively investigating low-resource learning and domain adaptation techniques to enhance the robustness and generalizability of our models across diverse real-world scenarios
 
 
+
+{% include search-box.html %}
+
 {% include search-info.html %}
 
-{% include section.html %}
-
-## Featured
+<h2 style="text-align: center; font-weight: bold;"> Featured</h2>
 
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
 {% include section.html %}
 
-## Others
+<h2 style="text-align: center; font-weight: bold;"> Others</h2>
 
 {% include list.html component="card" data="projects" filter="!group"  %}

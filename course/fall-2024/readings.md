@@ -88,7 +88,7 @@ h2 {
 
 .projects-table th, .projects-table td {
   padding: 1rem;
-  text-align: left;
+  text-align: center;
   border: 1px solid var(--border-color);
 }
 
@@ -118,7 +118,7 @@ h2 {
     padding: 1rem;
   }
   .projects-table td {
-    text-align: right;
+    text-align: center;
     padding-left: 50%;
     position: relative;
   }
@@ -128,7 +128,7 @@ h2 {
     left: 1rem;
     width: 45%;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -271,7 +271,7 @@ h2 {
 </style>
 
 <div class="page-container">
-  <h2>📚 Fall 2024 Readings – Natural Language Processing</h2>
+  <h1 style="text-align: center; font-weight: bold;">📚 Fall 2024 Readings – NLP</h1>
   <p>The following texts are useful, but none are required. All of them can be read free online.</p>
   <table class="projects-table">
     <thead>

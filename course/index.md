@@ -8,7 +8,9 @@ description: "Visual LAnguage Neural Cognitive Computing (VLANC) Lab at Mahindra
 keywords: [ "VLANC", Visual Language Neural Cognitive Computing Lab,"Visual Language", "Neural Cognitive Computing", "VLANC Lab", "AI Research", "Knowledge Graph", "Graph Neural Networks", "Multimodal AI", "Brain-Computer Interfaces", "Deep Generative Models", "Natural Language Processing", "Vision-Language Integration","NLP", "AI", "AI and Neuroscience lab", "Mahindra University AI lab", "Nidhi Goyal", "Dr. Nidhi Goyal","Projects","Finding","Courses","Research" ]
 ---
 
-# {% include icon.html icon="fa-solid fa-book" %} Courses
+
+
+<h1 style="text-align: center; font-weight: bold;">{% include icon.html icon="fa-solid fa-book" %} Courses Offered</h1>
 
 The **VLANC** Lab is actively involved in teaching and mentoring students through a variety of cutting-edge courses offered at both undergraduate and graduate levels. So that the students are ready to work on cutting-edge technology for the betterment of mankind.
 
@@ -33,7 +35,7 @@ The **VLANC** Lab is actively involved in teaching and mentoring students throug
     tags=course.tags
     flip=flip_flag
   %}
-  {% include tags.html tags="Faculty, Schedule, Readings,Books,Projects, Conferences" link="course/fall-2025" %}
+  {% include tags_button.html tags="Faculty, Schedule, Readings,Books,Projects, Conferences" link="course/fall-2025" %}
   {% endif %}
 {% endfor %}
 
@@ -101,7 +103,7 @@ The **VLANC** Lab is actively involved in teaching and mentoring students throug
     tags=course.tags
     flip=flip_flag
   %}
-  {% include tags.html tags="Faculty,Schedule,Readings,Books,Projects,Conferences" link="course/fall-2024" %}
+  {% include tags_button.html tags="Faculty,Schedule,Readings,Books,Projects,Conferences" link="course/fall-2024" %}
   {% endif %}
 {% endfor %}
 
@@ -124,7 +126,7 @@ The **VLANC** Lab is actively involved in teaching and mentoring students throug
     tags=course.tags
     flip=flip_flag
   %}
-  {% include tags.html tags="Faculty, Schedule, Readings,Books,Projects, Conferences" link="course/spring-2024" %}
+  {% include tags_button.html tags="Faculty, Schedule, Readings,Books,Projects, Conferences" link="course/spring-2024" %}
   {% endif %}
 {% endfor %}
 

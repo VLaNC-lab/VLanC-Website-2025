@@ -14,7 +14,8 @@ keywords: [ "VLANC", Visual Language Neural Cognitive Computing Lab,"Visual Lang
 
 At the **Visual Language Neural Cognitive Computing (VLANC) Lab**, our research focuses on the intersection of artificial intelligence, cognitive science, and multimodal learning. We explore how machines can understand and integrate **language, vision, and structured knowledge** to simulate human-like cognition and reasoning.
 
-## Key research areas include but not limited to:
+<h2 style="text-align: center; font-weight: bold;">Key Research Areas </h2>
+
 
 <details markdown="1">
 <summary>🧠 Knowledge Graphs & Reasoning </summary>

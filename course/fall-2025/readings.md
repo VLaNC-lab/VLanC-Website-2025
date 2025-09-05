@@ -271,7 +271,7 @@ h2 {
 </style>
 
 <div class="page-container">
-  <h2>📚 Fall 2025 Readings – Natural Language Processing</h2>
+  <h1 style="text-align: center; font-weight: bold;">📚 Fall 2025 Readings – NLP</h1>
   <p>The following texts are useful, but none are required. All of them can be read free online.</p>
   <table class="projects-table">
     <thead>

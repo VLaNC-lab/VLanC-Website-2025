@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-<h2>{% include icon.html icon="fa-person-chalkboard" %} Instructor</h2>
+<h2 style="text-align: center; font-weight: bold;">{% include icon.html icon="fa-person-chalkboard" %} Instructor</h2>
 
 <div class="portrait-list">
   {% include list.html data="members" component="portrait" filter="role == 'Faculty'" %}

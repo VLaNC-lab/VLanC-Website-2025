@@ -167,7 +167,7 @@ h2 {
 </style>
 
 <div class="page-container">
-  <h2>🚀 Final Project Showcase – Fall 2024</h2>
+  <h1 style="text-align: center; font-weight: bold;">🚀 Final Project Showcase – Fall 2024</h1>
   <table class="projects-table" id="projectTable">
     <thead>
       <tr >
@@ -247,4 +247,6 @@ document.getElementById("nextBtn").addEventListener("click", () => {
 
 // Initial render
 renderPagination();
-</script>
+</script>  
+
+
