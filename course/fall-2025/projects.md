@@ -134,7 +134,7 @@ h2 {
 </style>
 
 <div class="page-container">
-  <h2>🚀 Final Project Showcase – Fall 2025</h2>
+  <h1 style="text-align: center; font-weight: bold;">🚀 Final Project Showcase – Fall 2025</h1>
   <h2>Will be Updated Soon</h2>
 
   <table class="projects-table">

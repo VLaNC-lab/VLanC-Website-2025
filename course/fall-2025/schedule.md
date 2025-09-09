@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 {% assign course = site.data.fall-2025.fall-2025 | where: "title", "CS3126" | first %}
 
 {% if course %}
-<h1>📘 Course Info: {{ course.title }}</h1>
+<h1 style="text-align: center; font-weight: bold;">📘 Course Info: {{ course.title }}</h1>
 
 <div class="course-info">
   {{ course.course_info }}
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 <summary>Full Class Schedule</summary>
 
 <div class="page-container">
-  <h2>📘 NLP Course Weekly Schedule – Fall 2025 will be updated</h2>
+  <h2 style="text-align: center; font-weight: bold;">📘 NLP Course Weekly Schedule – Fall 2025 will be updated</h2>
 </div>
 
 <!-- <div class="page-container">

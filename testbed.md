@@ -188,6 +188,7 @@ Section, `size=full` w/ figure
 {% include button.html type="github" text="" style="bare" %}
 {% include button.html type="github" text="" link="github-handle" %}
 
+
 {% include section.html %}
 
 ## Icon
@@ -441,3 +442,10 @@ const test = "Lorem ipsum dolor sit amet";
 ## Site Search
 
 {% include site-search.html %}
+
+## Testing
+{% include button.html type="github" %}
+{% include button.html type="github" style="bare" %}
+{% include button.html type="github" icon="fa-brands fa-youtube" text="Override Text" tooltip="Override tooltip" %}
+{% include button.html type="github" text="" style="bare" %}
+{% include button.html type="github" text="" link="github-handle" %}

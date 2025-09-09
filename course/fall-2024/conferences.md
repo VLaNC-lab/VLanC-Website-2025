@@ -147,11 +147,12 @@ h3 {
 </style>
 
 <div class="page-container">
-  <h2>📚 Fall 2024 Conferences – Natural Language Processing</h2>
+  <h1 style="text-align: center; font-weight: bold;">📚 Fall 2024 Conferences – NLP</h1>
+  
 
   <div class="list-row">
     <div class="list-container journals">
-      <h3>📖 Journals</h3>
+      <h2 style="text-align: center; font-weight: bold;">📖 Journals</h2>
       <div class="badges">
         <span class="badge">Journal of Computational Linguistics</span>
         <span class="badge">Transactions of the ACL</span>
@@ -161,7 +162,7 @@ h3 {
     </div>
 
     <div class="list-container conferences">
-      <h3>📅 Conferences</h3>
+      <h2 style="text-align: center; font-weight: bold;">📅 Conferences</h2>
       <div class="badges">
         <span class="badge">ACL</span>
         <span class="badge">EACL</span>
